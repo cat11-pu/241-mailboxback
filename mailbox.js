@@ -1,8 +1,8 @@
-// mailbox.js：能不能收下与能消费多少（基线：一律给真与零）
+// mailbox.js：能不能收下与能消费多少
 export function canAccept(backlog, capacity) {
-  return true;
+  return backlog < capacity;
 }
 
 export function take(backlog, quota) {
-  return 0;
+  return Math.min(backlog, quota);
 }
