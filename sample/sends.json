@@ -1,0 +1,7 @@
+{
+  "param_error_code": "E_BAD_PARAM",
+  "send_error_code": "E_BAD_SEND",
+  "capacity": 2,
+  "quota": 1,
+  "sends": [1, 1, 1, 2, 1, 1]
+}
